@@ -36,6 +36,13 @@ left: 8rem;
     display: flex;
 flex-direction: column;
 }
+.navbar-list a{
+    text-decoration: none;
+}
+.navbar-list a :visited{
+    text-decoration: none;
+    color: inherit
+}
 
 .menu-toggle {
     display: none;
@@ -203,7 +210,7 @@ width:50%;
         top: 60px;
         left: 0;
         width: 100%;
-        background-color: #f0f0f0;
+        /* background-color: #f0f0f0; */
     
       }
     
