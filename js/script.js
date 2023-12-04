@@ -1,4 +1,5 @@
 
+
 document.getElementById('mobile-menu').addEventListener('click', function() {
     document.getElementById('nav1').classList.toggle('active');
     document.getElementById('nav2').classList.toggle('active');
